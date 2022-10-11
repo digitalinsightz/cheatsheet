@@ -1,0 +1,346 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - My Own Cheat Sheet for HTML & CSS</title>
+</head>
+<body>
+    
+</body>
+</html>
+
+<html>
+  <head>
+    <link rel="stylesheet" href="./styles.css" type="text/css" />
+  </head>
+  <body>
+    <h1>Choose Which Elements You Are Searching For</h1>
+    <a href="./html.html">
+        <button class="shadowbox" type="submit"><h2>HTML</h2></button>
+    </a>
+    <a href="./html.html">
+        <button class="shadowbox" type="submit"><h2>CSS</h2></button>
+    </a>
+
+<!-- HTML tag -->
+    <h2>HTML & Metadata Tags</h2>
+    <table>
+      <thead>
+        <th>Tag</th>
+        <th>Name</th>
+        <th>Description</th>
+      </thead>
+      <tbody>
+        <tr>
+          <td><span class="code">&lt;html&gt;</span></td>
+          <td>HTML</td>
+          <td>
+            The &lt;html&gt; <a
+              href="https://developer.mozilla.org/en-US/docs/Web/HTML"
+              title="HTML info"
+              >HTML</a> element represents the root (top-level element) of an HTML document, so it is also referred to as the root element. All other elements must be descendants of this element.</td>
+        </tr>
+        <tr class="example">
+            <td><strong>Example</strong></td>
+            <td colspan="2">At the beginning of every HTML site, include this at the top of every site: <br>
+            <br>
+                <strong>&lt;html lang="en">
+                <br>
+                &lt;head&gt
+                <br>
+                    &lt;meta charset="UTF-8">
+                <br>
+                    &lt;meta http-equiv="X-UA-Compatible" content="IE-edge">
+                <br>
+                    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <br>
+                    &lt;title&gt;Document&lt/title&gt;
+                <br>
+                &lt;/head&gt;</strong>
+            </td>
+        </tr>
+        <tr>
+            <td><span class="code">&lt;head&gt</span></td>
+            <td>Head</td>
+            <td>The &lt;head&gt HTML element contains machine-readable information (metadata) about the document, like its title, scripts, and style sheets.</td>       
+        </tr>
+        <tr>
+            <td><span class="code">&lt;link&gt</span></td>
+            <td>Link</td>
+            <td>The &lt;link&gt HTML element specifies relationships between the current document and an external resource. This element is most commonly used to link to CSS, but is also used to establish site icons (both "favicon" style icons and icons for the home screen and apps on mobile devices) among other things.</td>       
+        </tr>
+        <tr class="example">
+            <td><strong>Example</strong></td>
+            <td colspan="2">Link your CSS Stylesheet or any other document into your HTML using this script. Insert it before the closing head tag:
+            <br>
+            <br>
+                <strong>&lt;link href="url.css" rel="stylesheet" type="text/css"></strong>
+            </td>
+        </tr>
+        <tr>
+            <td><span class="code">&lt;meta&gt</span></td>
+            <td>Meta</td>
+            <td>The &lt;meta&gt HTML element represents Metadata that cannot be represented by other HTML meta-related elements, like base, link, script, style or title.</td>       
+        </tr>
+        <tr>
+            <td><span class="code">&lt;style&gt</span></td>
+            <td>Style</td>
+            <td>The &lt;style&gt HTML element contains style information for a document, or part of a document. It contains CSS, which is applied to the contents of the document containing the &lt;style&gt element.</td>       
+        </tr>
+        <tr>
+            <td><span class="code">&lt;title&gt</span></td>
+            <td>Title</td>
+            <td>The &lt;title&gt HTML element defines the document's title that is shown in a Browser's title bar or a page's tab. It only contains text; tags within the element are ignored.</td>       
+        </tr>
+      </tbody>
+    </table>
+
+<!-- BODY tag -->
+    <h2>Body Tag -- Sectioning Root</h2>
+    <table>
+        <thead>
+        <th>Tag</th>
+        <th>Name</th>
+        <th>Description</th>
+        </thead>
+        <tbody>
+        <tr>
+            <td><span class="code">&lt;body&gt</span></td>
+            <td>Body</td>
+            <td>The &lt;body&gt HTML element represents the content of an HTML document. There can be only one &lt;body&gt element in a document. <strong>All</strong> content that is to be <em>seen</em> falls under this &lt;body&gt tag.</td>       
+        </tr>
+        </tbody>
+    </table>
+    
+<!-- Content Sectioning -->
+    <h2>Content Tags</h2>
+    <table>
+    <thead>
+        <th>Tag</th>
+        <th>Name</th>
+        <th>Description</th>
+    </thead>
+    <tbody>
+        <tr>
+            <td><span class="code">&lt;address&gt</span></td>
+            <td>Address</td>
+            <td>The &lt;address&gt HTML element indicates that the enclosed HTML provides contact information for a person or people, or for an organization.</td>       
+        </tr>
+        <tr>
+            <td><span class="code">&lt;article&gt</span></td>
+            <td>Article</td>
+            <td>The &lt;article&gt HTML element represents a self-contained composition in a document, page, application, or site, which is intended to be independently distributable or reusable (e.g., in syndication).</td>
+        </tr>
+        <tr class="example">
+            <td><strong>Example</strong></td>
+            <td colspan="2">
+                <strong>A forum post,<br> a magazine <br> or newspaper article, <br> or a blog entry, <br> a product card, <br> a user-submitted comment, <br> an interactive widget or gadget, <br> or any other independent item of content.</strong>
+            </td>
+        </tr>
+        <tr>
+            <td><span class="code">&lt;aside&gt</span></td>
+            <td>Aside</td>
+            <td>The &lt;aside&gt HTML element represents a portion of a document whose content is only indirectly related to the document's main content. Asides are frequently presented as sidebars or call-out boxes.</td>       
+        </tr>
+        <tr>
+            <td><span class="code">&lt;footer&gt</span></td>
+            <td>Footer</td>
+            <td>The &lt;footer&gt HTML element represents a footer for its nearest ancestor sectioning content or sectioning root element. A &lt;footer&gt typically contains information about the author of the section, copyright data or links to related documents.</td>
+        </tr>
+        <tr>
+            <td><span class="code">&lt;header&gt</span></td>
+            <td>Header</td>
+            <td>The &lt;header&gt HTML element represents introductory content, typically a group of introductory or navigational aids. It may contain some heading elements but also a logo, a search form, an author name, and other elements.</td>       
+        </tr>
+        <tr>
+            <td><span class="code">&lt;h1&gt, &lt;h2&gt, &lt;h3&gt, &lt;h4&gt, &lt;h5&gt, &lt;h6&gt</span></td>
+            <td>Heading Tags (1-6)</td>
+            <td>The &lt;h1&gt to &lt;h6&gt HTML element  represent six levels of section headings. &lt;h1&gt is the highest section level and &lt;h6&gt is the lowest. <strong>NOTE: Avoid skipping heading levels -- always start from h1, followed by h2, and so on. Also, use only ONE h1 per page or view. It should concisely describe the overall purpose of the content.</strong></td>       
+        </tr>
+        <tr>
+            <td><span class="code">&lt;main&gt</span></td>
+            <td>Main</td>
+            <td>The &lt;main&gt HTML element represents the dominant content of the body of a document. The main content area consists of content that is directly related to or expands upon the central topic of a document, or the central functionality of an application.</td>
+        </tr>
+        <tr>
+            <td><span class="code">&lt;nav&gt</span></td>
+            <td>Navigation</td>
+            <td>The &lt;nav&gt HTML element represents a section of a page whose purpose is to provide navigation links, either within the current document or to other documents. Common examples of navigation sections are menus, tables of contents, and indexes. 
+            <br>
+            <br>
+            Note: a <strong>nav</strong> element doesn't have to contain a list, it can contain other kinds of content, as well.
+            </td>
+        </tr>
+        <tr class="example">
+            <td><strong>Example</strong></td>
+            <td colspan="2">
+                In this example, a &lt;nav&gt block is used to contain an unordered list (&lt;ul&gt) of links. With appropriate CSS, this can be presented as a sidebar, navigation bar, or drop-down menu.
+                <br>
+                <br>
+                <strong>&lt;nav class="menu">
+                <br> &lt;ul&gt
+                <br>
+                &lt;li&gt;
+                <br>
+                &lt;a href="#">Home&lt;/a&gt;
+                <br>
+                &lt;/li&gt</strong>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                    </ul>                  
+            </td>
+        </tr>
+        <tr>
+            <td><span class="code">&lt;section&gt</span></td>
+            <td>Section</td>
+            <td>The &lt;section&gt HTML element represents a generic standalone section of a document, which doesn't have a more specific semantic element to represent it. Sections should always have a heading, with very few exceptions.</td>
+        </tr>
+    </tbody>
+    </table>
+
+    <!-- Text Content Tags -->
+    <h2>Text Content -- Important for SEO & Accessibility</h2>
+    <table>
+        <thead>
+        <th>Tag</th>
+        <th>Name</th>
+        <th>Description</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td><span class="code">&lt;blockquote&gt</span></td>
+                <td>Blockquote</td>
+                <td>The &lt;blockquote&gt HTML element indicates that the enclosed text is an extended quotation. Usually, this is rendered visually by indentation (see Notes for how to change it). 
+                <br><br>    
+                A URL for the source of the quotation may be given using the <strong>cite</strong> attribute, while a text representation of the source can be given using the <strong>cite</strong> element.</td>       
+            </tr>
+            <tr>
+                <td><span class="code">&lt;dd&gt</span></td>
+                <td>Description, Definition or Value</td>
+                <td>The &lt;dd&gt HTML element provides the description, definition, or value for the preceding term (dt) in a description list (dl).</td>       
+            </tr>
+            <tr>
+                <td><span class="code">&lt;div&gt</span></td>
+                <td>Division or Section</td>
+                <td>The &lt;div&gt HTML element is the generic container for flow content. It has no effect on the content or layout until styled in some way using <a href="https://developer.mozilla.org/en-US/docs/Glossary/CSS" title="CSS info">CSS</a> (e.g. styling is directly applied to it, or some kind of layout model like <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout" title="Flexible Box Layout">Flexbox</a> is applied to its parent element).</td>       
+            </tr>
+            <tr class="example">
+                <td><strong>Simple Example</strong></td>
+                <td colspan="2">
+                    <strong>&lt;div&gt
+                        <br>
+                        &lt;p&gt
+                        <br>
+                          Any kind of content here. Such as &lt;p&gt;, &lt;table&gt;. You name it!
+                        <br>
+                          &lt;/p&gt
+                        <br>
+                          &lt;/div&gt</strong>
+                </td>
+            </tr>
+            <tr class="example">
+                <td><strong>Styled Example</strong></td>
+                <td colspan="2">
+                    This example creates a shadowed box by applying a style to the <div> using CSS. Note the use of the class attribute on the <div> to apply the style named "shadowbox" to the element.
+                    <br>
+                    <br>
+                    <strong>HTML</strong>
+                    <br>
+                    <strong>&lt;div class="shadowbox">
+                        <br>
+                        &lt;p&gt
+                        <br>
+                          Here's a very interesting note displayed in a lovely shadowed box.
+                        <br>
+                          &lt;/p&gt
+                        <br>
+                          &lt;/div&gt</strong>
+                        <br>
+                        <br>
+                        <strong>CSS</strong>
+                        <br>
+                        <strong>.shadowbox {
+                        <br>width: 15em;
+                        <br>border: 1px solid #333;
+                        <br>box-shadow: 8px 8px 5px #444;
+                        <br>padding: 8px 12px;
+                        <br>background-image: linear-gradient(180deg, #fff, #ddd 40%, #ccc);
+                        <br>}</strong>
+                        <br>
+                        <br>
+                        <strong>Result:</strong>
+                        <br><br>
+                        <div class="shadowbox">
+                            <p>Here's a very interesting note displaying in a lovely shadowed box.</p>
+                        </div>
+                        <br>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- Table Tags & Attributes -->
+        <h2>Table Tags</h2>
+        <table>
+        <thead>
+            <th>Tag</th>
+            <th>Name</th>
+            <th>Description</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td><span class="code">&lt;table&gt;</span></td>
+                <td>Table</td>
+                <td>The wrapper element for all HTML tables.</td>
+                </tr>
+                <tr>
+                <td><span class="code">&lt;thead&gt;</span></td>
+                <td>Table Head</td>
+                <td>The set of rows defining the column headers in a table.</td>
+                </tr>
+                <tr>
+                <td><span class="code">&lt;tbody&gt;</span></td>
+                <td>Table Body</td>
+                <td>The set of rows containing actual table data.</td>
+            </tr>
+            <tr>
+            <td><span class="code">&lt;tr&gt;</span></td>
+            <td>Table Row</td>
+            <td>The table row container.</td>
+            </tr>
+            <tr>
+                <td><span class="code">&lt;td&gt;</span></td>
+                <td>Table Data</td>
+                <td>The table row container.</td>
+                </tr>
+                <tr>
+                <td><span class="code">&lt;tfoot&gt;</span></td>
+                <td>Table Foot</td>
+                <td>The set of rows defining the footer in a table.</td>
+            </tr>
+        </tbody>
+        </table>
+
+        <h2>Table Attributes</h2>
+        <table>
+        <thead>
+            <th>Attribute</th>
+            <th>Name</th>
+            <th>Description</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td><span class="code">colspan</span></td>
+                <td>Column Span</td>
+                <td>Defines how many columns a td element should span.</td>
+            </tr>
+            <tr>
+                <td><span class="code">rowspan</span></td>
+                <td>Row Span</td>
+                <td>Defines how many rows a td element should span.</td>
+            </tr>
+        </tbody>
+        </table>
+  </body>
+</html>
